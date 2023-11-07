@@ -1,0 +1,15 @@
+.chivo-input {
+    border: 1px solid #3498db !important; /* Establece un borde */
+    border-radius: 5px; /* Añade bordes redondeados */
+    padding: 10px; /* Añade un espacio interno alrededor del texto */
+    font-size: 16px; /* Cambia el tamaño de fuente */
+    width: 50%; /* Haz que el cuadro de texto ocupe el 100% del ancho disponible */
+    background-color: #f3f3f3; /* Cambia el color de fondo */
+    color: #333; /* Cambia el color del texto */
+}
+
+/* Cambia el estilo cuando el cuadro de texto tiene el foco (está activo) */
+.chivo-input:focus {
+    border-color: #ff7f50; /* Cambia el color del borde al obtener el foco */
+    background-color: #fff; /* Cambia el color de fondo al obtener el foco */
+}
